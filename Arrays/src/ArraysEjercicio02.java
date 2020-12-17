@@ -15,7 +15,7 @@ public class ArraysEjercicio02 {
 	}
 	
 	/**
-	 * Método para introducir enteros en el array
+	 * Método para introducir enteros en el array. 
 	 * @param array
 	 */
 	private static void introducirVectorNumeros(int[] array){
@@ -29,7 +29,11 @@ public class ArraysEjercicio02 {
 		}
 		
 	}
-	
+	/**
+	 * Método que devuelve cuantos valores negativos hay en el array
+	 * @param array
+	 * @return
+	 */
 	private static int contarNumerosNegativos(int[] array) {
 		int contadorNegativos=0;
 		for(int i=array.length -1; i>=0; i--) {
