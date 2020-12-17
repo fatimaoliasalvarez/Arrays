@@ -32,7 +32,7 @@ public class ArraysEjercicio02 {
 	/**
 	 * Método que devuelve cuantos valores negativos hay en el array
 	 * @param array
-	 * @return
+	 * @return numero de elementos negativos
 	 */
 	private static int contarNumerosNegativos(int[] array) {
 		int contadorNegativos=0;
