@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class ArraysEjercicio01 {
@@ -5,7 +6,8 @@ public class ArraysEjercicio01 {
 	private static final int NUMERO_ELEMENTOS = 10;
 	private static Scanner teclado=new Scanner (System.in);
 	public static void main(String[] args) {
-		
+		//Programa Principal
+		//Prueba
 
 		int [] vector =new int[NUMERO_ELEMENTOS];		
 		introducirVectorNumeros(vector);
